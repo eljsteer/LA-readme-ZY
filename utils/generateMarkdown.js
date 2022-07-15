@@ -10,7 +10,7 @@ function renderLicenseLink(license) {}
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if(license === "MIT") {
-    "[![Licence: MIT]"
+    return "[![Licence: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
   }
 }
 
@@ -43,6 +43,8 @@ function generateMarkdown(data) {
   ## ACKNOWLEDGEMENTS
   ## CREDTIS
   ## Licences
+    ${data.license}
+    ${renderLicenseSection(data.license)}
 `;
 }
 

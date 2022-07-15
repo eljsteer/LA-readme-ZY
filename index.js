@@ -19,6 +19,7 @@ function readMeDetails() {
   }, {
     type: "checkbox",
     name: "Headings2",
+    message: "What other optional headings would you like to include?",
     choices: ["HOW TO USE", "CODE SUMMUARY EXAMPLES", "HOW TO CONTRIBUTE"]
   }, {
     type: "checkbox",
@@ -27,7 +28,7 @@ function readMeDetails() {
     choices: ["HTML", "CSS", "Javascript", "Bootstrap", "NodeJS"]
   }, {
     type: "list",
-    name: "licences",
+    name: "license",
     message: "What open source licences do you require?",
     choices: ["MIT", "GNU", "BSD Simplified","Apache 2.0", "Mozilla Public 2,0", ]
   }
