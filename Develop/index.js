@@ -13,22 +13,25 @@ function readMeDetails() {
     message: "What is the name of your Project or Repository?", 
   }, {
     type: "checkbox",
-    name: "Headings",
-    choices: ["Summary", "Technologies Used", "Motivation","Skills and Knowledge I learnt",]
+    name: "Headings1",
+    message: "What optional headings would you like to include?",
+    choices: ["REQUIREMENTS", "INSTALLATION", "FAQ"]
   }, {
     type: "checkbox",
-    name: "Headings",
-    choices: ["HTML", "CSS", "Javascript","NodeJS"]
+    name: "Headings2",
+    choices: ["HOW TO USE", "CODE SUMMUARY EXAMPLES", "HOW TO CONTRIBUTE"]
   }, {
     type: "checkbox",
     name: "techUsed",
-    choices: ["HTML", "CSS", "Javascript","NodeJS"]
+    message: "What technology or Frameworks did you use?",
+    choices: ["HTML", "CSS", "Javascript", "Bootstrap", "NodeJS"]
   }, {
     type: "list",
     name: "licences",
     message: "What open source licences do you require?",
-    choices: ["HTML", "CSS", "Javascript","NodeJS"]
-  } 
+    choices: ["MIT", "GNU", "BSD Simplified","Apache 2.0", "Mozilla Public 2,0", ]
+  }
+
   ]);
   }
 // TODO: Create a function to write README file
@@ -44,9 +47,10 @@ function init() {
     }) 
     .catch((error) => {
       if (error.isTtyError) {
-        // Prompt couldn't be rendered in the current environment
+        console.log("Prompts cannot be rendered in current environment")
+        console.log(error)
       } else {
-        // Something else went wrong
+        console.log(error)
       }
     });
 }
