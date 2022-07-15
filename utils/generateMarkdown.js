@@ -10,12 +10,12 @@ function renderLicenseLink(license) {}
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if(license === "MIT") {
-    return "[![Licence: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+    let licenseInput = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
   }
 }
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
+function generateMarkdown(data,licenseInput) {
   return `# ${data.title}
   ## INTRODUCTION
 
@@ -41,10 +41,10 @@ function generateMarkdown(data) {
   ## ${data.Headings2}
   ## CONTRIBUTORS
   ## ACKNOWLEDGEMENTS
-  ## CREDTIS
-  ## Licences
+  ## CREDITS
+  ## Licence
     ${data.license}
-    ${renderLicenseSection(data.license)}
+    ${renderLicenseSection(licenseInput)}
 `;
 }
 
