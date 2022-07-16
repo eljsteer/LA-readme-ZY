@@ -1,4 +1,4 @@
-// Function to call and display licenses, return an empty string
+// Function to call and display licenses, or return an empty string if license "none" is chosen
 function renderLicense(data) {
   if (data === "MIT") {
     return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
@@ -18,6 +18,7 @@ function renderLicense(data) {
     return "";
   };
 };
+
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -43,14 +44,17 @@ function generateMarkdown(data) {
   ## INSTALLATION
   ${data.installation}
 
-  #### USAGE
+  ## USAGE
   ${data.usage}
+
+  ## MEDIA
+
 
   ## TESTS
   *  ${data.tests}
   
   ## LICENSE
-  Copyright (c) ${data.year} ${data.creator},<br />
+  Project developed ${data.year} by ${data.creator},<br />
   This application is licensed under the ${data.license} license.
 
   ## CONTRIBUTORS
@@ -62,10 +66,11 @@ function generateMarkdown(data) {
 
   ## QUESTIONS
   For any questions on this project please contact me via my Github link or email below.<br />
-  **Find me on GitHub - UserName: [${data.github}](https://github.com/${data.github})**<br />
+
+  **Find me on GitHub - UserName:** [${data.github}](https://github.com/${data.github})<br />
   **Email me with any questions:** ${data.email}<br /><br />
 
-  _This README was generated with ❤️ by [LA-README-ZY](https://github.com/eljsteer/LA-README-ZY)_
+  <p align="center">_This README was generated with ❤️ by [LA-README-ZY](https://github.com/eljsteer/LA-README-ZY)_<p>
 `;
 }
 

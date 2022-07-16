@@ -20,18 +20,21 @@
   ## INSTALLATION
   Install the software using "NPM init" and NPM "install inquirer" to install node packages.
 
-  #### USAGE
+  ## USAGE
   Type node index.js in teh terminal at the root of the project application
+
+  ## MEDIA
+
 
   ## TESTS
   *  Test using Jest
   
   ## LICENSE
-  Copyright (c) 2022 Jason Steer,<br />
+  Project developed 2022 by Jason Steer,<br />
   This application is licensed under the MIT license.
 
   ## CONTRIBUTORS
-  * Developed with assistance from mdkgray
+  * Developed with assistance from mdkgray on displaying badges
 
   ## CREDITS
   * 
@@ -39,7 +42,8 @@
 
   ## QUESTIONS
   For any questions on this project please contact me via my Github link or email below.<br />
-  **Find me on GitHub - UserName: [eljsteer](https://github.com/eljsteer)**<br />
+
+  **Find me on GitHub - UserName:** [eljsteer](https://github.com/eljsteer)<br />
   **Email me with any questions:** eljsteer@gmail.com<br /><br />
 
-  _This README was generated with ❤️ by [LA-README-ZY](https://github.com/eljsteer/LA-README-ZY)_
+  <p align="center">_This README was generated with ❤️ by [LA-README-ZY](https://github.com/eljsteer/LA-README-ZY)_<p>
