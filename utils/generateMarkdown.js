@@ -68,7 +68,8 @@ function generateMarkdown(data) {
   For any questions on this project please contact me via my Github link or email.<br />
 
   **Find me on GitHub - UserName:** [${data.github}](https://github.com/${data.github})<br />
-  **Email me with any questions:** ${data.email}<br /><br />
+  **Email me with any questions:** ${data.email}<br />
+  <br />
   -----------------------------------------------------
   _This README was generated with ❤️ by [LA-README-ZY](https://github.com/eljsteer/LA-README-ZY)_
 `;
