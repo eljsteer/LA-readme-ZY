@@ -4,6 +4,14 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown");
 
+function validateInput(data) {
+  if(data != "") {
+    return true;
+  } else {
+    return "Please enter a response to the query"
+  }
+}
+
 // TODO: Create an array of questions for user input
 function readMeDetails() {
   return inquirer.prompt([
@@ -11,6 +19,11 @@ function readMeDetails() {
     type: "input",
     name: "title",
     message: "What is the name of your Project or Repository?", 
+    validate: validateInput,
+  }, {
+    type: "input",
+    name: "creator",
+    message: "Please provide your name as Creator of this Project?", 
     validate: validateInput,
   }, {
     type: "input",
@@ -39,43 +52,52 @@ function readMeDetails() {
     choices: ["MIT", "GNU Public License (GPL)", "BSD 3-Clause","Apache 2.0", "Mozilla Public 2,0", "IBM Public License" ],
     validate: validateInput,
   }, {
-  type: "input",
-  name: "contributing",
-  message: "Please provide the name of contributors",
-  validate: validateInput,
+    type: "input",
+    name: "year",
+    message: "What year did you obtain the license?", 
+    validate: validateInput,
   }, {
-  type: "input",
-  name: "github",
-  message: "Please provide your GitHub username",
-  validate: validateInput,
+    type: "input",
+    name: "contributing",
+    message: "Please provide the name of contributors",
+    validate: validateInput,
+  }, {
+    type: "input",
+    name: "github",
+    message: "Please provide your GitHub username",
+    validate: validateInput,
   }, {
     type: "input",
     name: "email",
     message: "Please provide your email",
-    validate: validateInput,
-  },
-])
-}
-// TODO: Create a function to write README file
-// function writeToFile(answers) {
-  
-// };
-// TODO: Create a function to initialize app
-function init() {
+    validate: function(data) {
+      if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(data)) {
+          return true;
+      } else {
+          return 'Not a valid email address. Please enter your email again.';
+      }
+    },
+  }
+]);
+};
+
+function init(README) {
   readMeDetails()
     .then((answers) => {
       console.log(answers)
-      fs.writeFileSync("README.md", generateMarkdown(answers))
-    }) 
-    .catch((error) => {
-      if (error.isTtyError) {
-        console.log("Prompts cannot be rendered in current environment")
-        console.log(error)
+      if (!fs.existsSync(README)) {
+          fs.mkdirSync(README);
+          console.log('Directory created');
       } else {
-        console.log(error)
+          fs.writeFileSync('./README/README.md', generateMarkdown(answers), function (error) {
+              if (error) {
+                  throw error;
+              } else {
+                  console.log('File created');
+              }
+          });
       }
     });
-}
+  }
 
-// Function call to initialize app
-init();
+init('README', 'readME.md');

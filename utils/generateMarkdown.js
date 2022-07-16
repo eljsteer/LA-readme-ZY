@@ -18,22 +18,13 @@ function renderLicense(data) {
 
 };
 
-
-function validateInput(data) {
-  if(data != "") {
-    return true;
-  } else {
-    return "Please enter a response to the query"
-  }
-}
-
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
   
   # ${data.title}
 
-  ${renderLicense(licenseInput)}
+  ${renderLicense(data)}
 
   ## TABLE OF CONTENTS
   * [Description](#description)
@@ -60,7 +51,7 @@ function generateMarkdown(data) {
   * 
   
   ## LICENSE
-  ${data.license}
+  Copyright (c) ${data.year} ${data.creator} Licensed under the ${data.license} license.
 
   ## CONTRIBUTORS
   * ${data.contributors}
