@@ -15,13 +15,13 @@
   - [Questions](#Questions)
 
   ## DESCRIPTION
-  Application to generate ReadMe.md's from using NodeJS terminal
+  Application to generate ReadMe files from using NodeJS terminal
   
   ## INSTALLATION
   Install the software using "NPM init" and NPM "install inquirer" to install node packages.
 
   ## USAGE
-  Type node index.js in teh terminal at the root of the project application.
+  Type node index.js in the terminal at the root of the project application.
 
   ## MEDIA
 
@@ -34,7 +34,7 @@
   This application is licensed under the MIT license.
 
   ## CONTRIBUTORS
-  * Developed with assistance from mdkgray on displaying badges
+  * mdkgray
 
   ## CREDITS
   * 
@@ -46,4 +46,4 @@
   **Find me on GitHub - UserName:** [eljsteer](https://github.com/eljsteer)<br />
   **Email me with any questions:** eljsteer@gmail.com<br /><br />
 
-  <p align="center">This README was generated with ❤️ by<p> [LA-README-ZY](https://github.com/eljsteer/LA-README-ZY)
+  _This README was generated with ❤️ by [LA-README-ZY](https://github.com/eljsteer/LA-README-ZY)_

@@ -70,7 +70,7 @@ function generateMarkdown(data) {
   **Find me on GitHub - UserName:** [${data.github}](https://github.com/${data.github})<br />
   **Email me with any questions:** ${data.email}<br /><br />
 
-  <p align="center">This README was generated with ❤️ by<p> [LA-README-ZY](https://github.com/eljsteer/LA-README-ZY)
+  _This README was generated with ❤️ by [LA-README-ZY](https://github.com/eljsteer/LA-README-ZY)_
 `;
 }
 
