@@ -1,8 +1,8 @@
 
   
-  # coo
+  # LA-README-ZY
 
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## TABLE OF CONTENTS
   - [Description](#description)
@@ -15,31 +15,31 @@
   - [Questions](#Questions)
 
   ## DESCRIPTION
-  undefined
+  Application to generate ReadMe.md's from using NodeJS terminal
   
   ## INSTALLATION
-  asd
+  Install the software using "NPM init" and NPM "install inquirer" to install node packages.
 
   #### USAGE
-  fasdf
+  Type node index.js in teh terminal at the root of the project application
 
   ## TESTS
-  *  asf
+  *  Test using Jest
   
   ## LICENSE
-  Copyright (c) asd asdfa 
-  This application is licensed under the Apache 2.0 license.
+  Copyright (c) 2022 Jason Steer,<br />
+  This application is licensed under the MIT license.
 
   ## CONTRIBUTORS
-  * undefined
+  * Assistance from mdkgray
 
   ## CREDITS
   * 
   *
 
   ## QUESTIONS
-  _For any questions on this Project please contact me via the my Github or email below._
-  Find me on: [asf](https://github.com/asf)<br />
-  Email me with any questions: el.jsteer@mc.com<br /><br />
+  For any questions on this project please contact me via my Github link or email below.<br />
+  **Find me on:** [eljsteer](https://github.com/eljsteer) 
+  **Email me with any questions:** eljsteer@gmail.com<br /><br />
 
-  _This README was generated with ❤️ by [LA-README-ZY](https://github.com/eljsteer/LA-README-ZY)_
+  **This README was generated with ❤️ by [LA-README-ZY](https://github.com/eljsteer/LA-README-ZY)**

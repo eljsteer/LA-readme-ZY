@@ -56,6 +56,7 @@ function readMeDetails() {
       "IBM Public License",
       "MIT", 
       "Mozilla Public 2,0",
+      "none"
     ],
     validate: validateInput,
   }, {
@@ -65,7 +66,7 @@ function readMeDetails() {
     validate: validateInput,
   }, {
     type: "input",
-    name: "contributing",
+    name: "contributors",
     message: "Please provide the name of contributors",
     validate: validateInput,
   }, {
@@ -95,14 +96,21 @@ function init(README) {
       if (!fs.existsSync(README)) {
           fs.mkdirSync(README);
           console.log('Directory created');
-      } else {
-          fs.writeFileSync('./README/README.md', generateMarkdown(data), function (error) {
-              if (error) {
-                  throw error;
-              } else {
-                  console.log('File created');
-              }
+          fs.writeFileSync('./README/README.md', generateMarkdown(data), (error) => {
+            if (error) {
+              throw error;
+            } else {
+              console.log('File created');
+            };
           });
+      } else {
+        fs.writeFileSync('./README/README.md', generateMarkdown(data), (error) => {
+            if (error) {
+                throw error;
+            } else {
+                console.log('File created');
+            }
+        });
       }
     });
   }

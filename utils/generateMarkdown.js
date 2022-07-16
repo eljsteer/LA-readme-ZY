@@ -1,4 +1,4 @@
-// If there is no license, return an empty string
+// Function to call and display licenses, return an empty string
 function renderLicense(data) {
   if (data === "MIT") {
     return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
@@ -14,6 +14,8 @@ function renderLicense(data) {
     return "[![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)";
   } else if (data === "IBM Public License") {
     return "[![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)";
+  } else if (data === "none") {
+    return "";
   };
 };
 
@@ -36,7 +38,7 @@ function generateMarkdown(data) {
   - [Questions](#Questions)
 
   ## DESCRIPTION
-  ${data.desciption}
+  ${data.description}
   
   ## INSTALLATION
   ${data.installation}
@@ -48,7 +50,7 @@ function generateMarkdown(data) {
   *  ${data.tests}
   
   ## LICENSE
-  Copyright (c) ${data.year} ${data.creator} 
+  Copyright (c) ${data.year} ${data.creator},<br />
   This application is licensed under the ${data.license} license.
 
   ## CONTRIBUTORS
@@ -59,11 +61,11 @@ function generateMarkdown(data) {
   *
 
   ## QUESTIONS
-  _For any questions on this Project please contact me via the my Github or email below._
-  Find me on: [${data.github}](https://github.com/${data.github})<br />
-  Email me with any questions: ${data.email}<br /><br />
+  For any questions on this project please contact me via my Github link or email below.<br />
+  **Find me on:** [${data.github}](https://github.com/${data.github}) 
+  **Email me with any questions:** ${data.email}<br /><br />
 
-  _This README was generated with ❤️ by [LA-README-ZY](https://github.com/eljsteer/LA-README-ZY)_
+  **This README was generated with ❤️ by [LA-README-ZY](https://github.com/eljsteer/LA-README-ZY)**
 `;
 }
 
