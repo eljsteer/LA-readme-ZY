@@ -31,7 +31,7 @@
   This application is licensed under the MIT license.
 
   ## CONTRIBUTORS
-  * Assistance from mdkgray
+  * Developed with assistance from mdkgray
 
   ## CREDITS
   * 
@@ -39,7 +39,7 @@
 
   ## QUESTIONS
   For any questions on this project please contact me via my Github link or email below.<br />
-  **Find me on:** [eljsteer](https://github.com/eljsteer) 
+  **Find me on GitHub - UserName: [eljsteer](https://github.com/eljsteer)**<br />
   **Email me with any questions:** eljsteer@gmail.com<br /><br />
 
-  **This README was generated with ❤️ by [LA-README-ZY](https://github.com/eljsteer/LA-README-ZY)**
+  _This README was generated with ❤️ by [LA-README-ZY](https://github.com/eljsteer/LA-README-ZY)_
