@@ -21,7 +21,7 @@
   Install the software using "NPM init" and NPM "install inquirer" to install node packages.
 
   ## USAGE
-  Type node index.js in teh terminal at the root of the project application
+  Type node index.js in teh terminal at the root of the project application.
 
   ## MEDIA
 
@@ -41,9 +41,9 @@
   *
 
   ## QUESTIONS
-  For any questions on this project please contact me via my Github link or email below.<br />
+  For any questions on this project please contact me via my Github link or email.<br />
 
   **Find me on GitHub - UserName:** [eljsteer](https://github.com/eljsteer)<br />
   **Email me with any questions:** eljsteer@gmail.com<br /><br />
 
-  <p align="center">_This README was generated with ❤️ by [LA-README-ZY](https://github.com/eljsteer/LA-README-ZY)_<p>
+  <p align="center">This README was generated with ❤️ by<p> [LA-README-ZY](https://github.com/eljsteer/LA-README-ZY)
