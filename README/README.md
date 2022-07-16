@@ -2,7 +2,7 @@
   
   <h1 align="center">LA-README-ZY<h1>
 
-  <p align="center">[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<p>
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## TABLE OF CONTENTS
   - [Description](#description)
@@ -18,7 +18,7 @@
   Application to generate ReadMe files from using NodeJS terminal.
   
   ## INSTALLATION
-  Install the software using "NPM init" and NPM "install inquirer" to install node packages
+  Install the software using "NPM init" and NPM "install inquirer" to install node packages.
 
   ## USAGE
   Type node index.js in the terminal at the root of the project application.

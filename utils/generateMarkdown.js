@@ -26,7 +26,7 @@ function generateMarkdown(data) {
   
   <h1 align="center">${data.title}<h1>
 
-  <p align="center">${renderLicense(data.license)}<p>
+  ${renderLicense(data.license)}
 
   ## TABLE OF CONTENTS
   - [Description](#description)
