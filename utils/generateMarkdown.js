@@ -1,21 +1,20 @@
 // If there is no license, return an empty string
 function renderLicense(data) {
-  if(data === "MIT") {
+  if (data === "MIT") {
     return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
   } else if (data === "GNU Public License (GPL)") {
     return "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
   } else if (data === "BSD 3-Clause") {
-    return "[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)"
+    return "[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)";
   } else if (data === "Apache 2.0") {
-    return "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    return "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
   } else if (data === "Mozilla Public 2.0") {
-    return "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)"
+    return "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)";
   } else if (data === "Eclipse Public License 1.0") {
     return "[![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)";
-  } else if (data = "") {
-    return ""
-  }
-
+  } else if (data === "IBM Public License") {
+    return "[![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)";
+  };
 };
 
 // TODO: Create a function to generate markdown for README
@@ -24,17 +23,17 @@ function generateMarkdown(data) {
   
   # ${data.title}
 
-  ${renderLicense(data)}
+  ${renderLicense(data.license)}
 
   ## TABLE OF CONTENTS
-  * [Description](#description)
-  * [Installation](#Installation)
-  * [Usage](#Usage)
-  * [Tests](#Tests)
-  * [License](#License)
-  * [Contributors](#Contributors)
-  * [Credits](#Credits)
-  * [Questions](#Questions)
+  - [Description](#description)
+  - [Installation](#Installation)
+  - [Usage](#Usage)
+  - [Tests](#Tests)
+  - [License](#License)
+  - [Contributors](#Contributors)
+  - [Credits](#Credits)
+  - [Questions](#Questions)
 
   ## DESCRIPTION
   ${data.desciption}
@@ -46,12 +45,11 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## TESTS
-  * 
-  *
-  * 
+  *  ${data.tests}
   
   ## LICENSE
-  Copyright (c) ${data.year} ${data.creator} Licensed under the ${data.license} license.
+  Copyright (c) ${data.year} ${data.creator} 
+  This application is licensed under the ${data.license} license.
 
   ## CONTRIBUTORS
   * ${data.contributors}
@@ -62,8 +60,10 @@ function generateMarkdown(data) {
 
   ## QUESTIONS
   _For any questions on this Project please contact me via the my Github or email below._
-  ${data.github}
-  ${data.email}
+  Find me on: [${data.github}](https://github.com/${data.github})<br />
+  Email me with any questions: ${data.email}<br /><br />
+
+  _This README was generated with ❤️ by [LA-README-ZY](https://github.com/eljsteer/LA-README-ZY)_
 `;
 }
 

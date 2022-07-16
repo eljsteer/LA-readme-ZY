@@ -49,7 +49,14 @@ function readMeDetails() {
     type: "list",
     name: "license",
     message: "What open source licences do you require?",
-    choices: ["MIT", "GNU Public License (GPL)", "BSD 3-Clause","Apache 2.0", "Mozilla Public 2,0", "IBM Public License" ],
+    choices: [
+      "Apache 2.0",
+      "BSD 3-Clause",
+      "GNU Public License (GPL)",
+      "IBM Public License",
+      "MIT", 
+      "Mozilla Public 2,0",
+    ],
     validate: validateInput,
   }, {
     type: "input",
@@ -83,13 +90,13 @@ function readMeDetails() {
 
 function init(README) {
   readMeDetails()
-    .then((answers) => {
-      console.log(answers)
+    .then((data) => {
+      console.log(data)
       if (!fs.existsSync(README)) {
           fs.mkdirSync(README);
           console.log('Directory created');
       } else {
-          fs.writeFileSync('./README/README.md', generateMarkdown(answers), function (error) {
+          fs.writeFileSync('./README/README.md', generateMarkdown(data), function (error) {
               if (error) {
                   throw error;
               } else {
