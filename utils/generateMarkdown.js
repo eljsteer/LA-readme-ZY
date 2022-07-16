@@ -24,9 +24,9 @@ function renderLicense(data) {
 function generateMarkdown(data) {
   return `
   
-  # ${data.title}
+  <h1 align="center">${data.title}<h1>
 
-  ${renderLicense(data.license)}
+  <p align="center">${renderLicense(data.license)}<p>
 
   ## TABLE OF CONTENTS
   - [Description](#description)
@@ -69,7 +69,7 @@ function generateMarkdown(data) {
 
   **Find me on GitHub - UserName:** [${data.github}](https://github.com/${data.github})<br />
   **Email me with any questions:** ${data.email}<br /><br />
-
+  -----------------------------------------------------
   _This README was generated with ❤️ by [LA-README-ZY](https://github.com/eljsteer/LA-README-ZY)_
 `;
 }

@@ -1,8 +1,8 @@
 
   
-  # LA-README-ZY
+  <h1 align="center">LA-README-ZY<h1>
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  <p align="center">[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<p>
 
   ## TABLE OF CONTENTS
   - [Description](#description)
@@ -15,10 +15,10 @@
   - [Questions](#Questions)
 
   ## DESCRIPTION
-  Application to generate ReadMe files from using NodeJS terminal
+  Application to generate ReadMe files from using NodeJS terminal.
   
   ## INSTALLATION
-  Install the software using "NPM init" and NPM "install inquirer" to install node packages.
+  Install the software using "NPM init" and NPM "install inquirer" to install node packages
 
   ## USAGE
   Type node index.js in the terminal at the root of the project application.
@@ -45,5 +45,5 @@
 
   **Find me on GitHub - UserName:** [eljsteer](https://github.com/eljsteer)<br />
   **Email me with any questions:** eljsteer@gmail.com<br /><br />
-
+  -----------------------------------------------------
   _This README was generated with ❤️ by [LA-README-ZY](https://github.com/eljsteer/LA-README-ZY)_
