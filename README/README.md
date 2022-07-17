@@ -40,7 +40,7 @@
   * [npm inquirer](https://www.npmjs.com/package/inquirer)
   * [w3resourse - Email validation](https://www.w3resource.com/javascript/form/email-validation.php)
   * [Stackoverflow - inquirer validation](https://stackoverflow.com/questions/57321266/how-to-test-inquirer-validation)
-  * [codinhood](https://codinhood.com/nano/git/center-images-text-github-readme)
+  * [codinhood - how to center Readme Text](https://codinhood.com/nano/git/center-images-text-github-readme)
   * [Stackoverflow - write a file to folder](https://stackoverflow.com/questions/58234734/write-a-file-into-specific-folder-in-node-js)
 
   ## QUESTIONS
