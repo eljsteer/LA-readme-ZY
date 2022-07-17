@@ -37,8 +37,11 @@
   * mdkgray
 
   ## CREDITS
-  * 
-  *
+  * https://www.npmjs.com/package/inquirer
+  * https://www.w3resource.com/javascript/form/email-validation.php
+  * https://stackoverflow.com/questions/57321266/how-to-test-inquirer-validation
+  * https://codinhood.com/nano/git/center-images-text-github-readme
+  * https://stackoverflow.com/questions/58234734/write-a-file-into-specific-folder-in-node-js
 
   ## QUESTIONS
   For any questions on this project please contact me via my Github link or email.<br />
