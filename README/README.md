@@ -37,11 +37,11 @@
   * mdkgray
 
   ## CREDITS
-  * https://www.npmjs.com/package/inquirer
-  * https://www.w3resource.com/javascript/form/email-validation.php
-  * https://stackoverflow.com/questions/57321266/how-to-test-inquirer-validation
-  * https://codinhood.com/nano/git/center-images-text-github-readme
-  * https://stackoverflow.com/questions/58234734/write-a-file-into-specific-folder-in-node-js
+  * [npm inquirer](https://www.npmjs.com/package/inquirer)
+  * [w3resourse - Email validation](https://www.w3resource.com/javascript/form/email-validation.php)
+  * [Stackoverflow - inquirer validation](https://stackoverflow.com/questions/57321266/how-to-test-inquirer-validation)
+  * [codinhood](https://codinhood.com/nano/git/center-images-text-github-readme)
+  * [Stackoverflow - write a file to folder](https://stackoverflow.com/questions/58234734/write-a-file-into-specific-folder-in-node-js)
 
   ## QUESTIONS
   For any questions on this project please contact me via my Github link or email.<br />
