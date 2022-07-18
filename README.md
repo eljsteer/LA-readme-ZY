@@ -21,7 +21,7 @@
   Install the software using "npm init" and "npm install inquirer" to install node packages.
 
   ## USAGE
-  Type node index.js in the terminal at the root of the project application.
+  Type node index.js in the terminal at the root of the project application.<br />
   Link to Video an example of usage: 
   [Usage Walkthrough Video](https://drive.google.com/file/d/1cRK2N-mIBnumrDcdbMAO78ftitOf54sr/view)
 
