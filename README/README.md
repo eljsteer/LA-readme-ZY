@@ -15,16 +15,18 @@
   - [Questions](#Questions)
 
   ## DESCRIPTION
-  Application to generate ReadMe files from using NodeJS terminal.
+  Application to generate ReadMe files from using NodeJS and inquirer NPM package.
   
   ## INSTALLATION
   Install the software using "NPM init" and NPM "install inquirer" to install node packages.
 
   ## USAGE
   Type node index.js in the terminal at the root of the project application.
+  Link to Video an example of usage: 
+  [Usage Walkthrough Video](https://drive.google.com/file/d/1cRK2N-mIBnumrDcdbMAO78ftitOf54sr/view)
 
   ## MEDIA
-  ![Example Node prompts in Terminal](Node1_2022-07-18.jpg)
+  ![Example Terminal commands to Invoke, Prompts and Responses](Node1_2022-07-18.jpg)
 
   ## TESTS
   *  Test using Jest
