@@ -24,9 +24,9 @@
   Type node index.js in the terminal at the root of the project application.
 
   ## MEDIA
-  ![Readme Screenshot.1](README\Readme1-2022-07-18.jpg)
-  ![Readme Screenshot.2](README\Readme2-2022-07-18.jpg)
-  ![Readme Screenshot.3](README\Readme3-2022-07-18.jpg)
+  ![Readme Screenshot.1](Readme1-2022-07-18.jpg)
+  ![Readme Screenshot.2](Readme2-2022-07-18.jpg)
+  ![Readme Screenshot.3](Readme3-2022-07-18.jpg)
 
   ## TESTS
   *  Test using Jest
