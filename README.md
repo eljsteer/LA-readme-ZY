@@ -18,7 +18,7 @@
   Application to generate ReadMe files from using NodeJS and inquirer NPM package.
   
   ## INSTALLATION
-  Install the software using "NPM init" and NPM "install inquirer" to install node packages.
+  Install the software using "npm init" and "npm install inquirer" to install node packages.
 
   ## USAGE
   Type node index.js in the terminal at the root of the project application.
