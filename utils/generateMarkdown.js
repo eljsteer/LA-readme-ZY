@@ -62,7 +62,7 @@ function generateMarkdown(data) {
 
   ## CREDITS
   * 
-  *
+
 
   ## QUESTIONS
   For any questions on this project please contact me via my Github link or email.<br />

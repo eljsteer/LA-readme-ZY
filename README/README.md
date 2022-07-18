@@ -47,7 +47,7 @@
   For any questions on this project please contact me via my Github link or email.<br />
 
   **Find me on GitHub - UserName:** [eljsteer](https://github.com/eljsteer)<br />
-  **Email me with any questions:** eljsteer@gmail.com<br />
+  **Email me with any questions:** el.jsteer@gmail.com<br />
   <br />
   
   _This README was generated with ❤️ by [LA-README-ZY](https://github.com/eljsteer/LA-README-ZY)_

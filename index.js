@@ -55,7 +55,7 @@ function readMeDetails() {
       "GNU Public License (GPL)",
       "IBM Public License",
       "MIT", 
-      "Mozilla Public 2,0",
+      "Mozilla Public 2.0",
       "none"
     ],
     validate: validateInput,
