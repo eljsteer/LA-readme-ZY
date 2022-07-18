@@ -67,17 +67,17 @@ function readMeDetails() {
   }, {
     type: "input",
     name: "contributors",
-    message: "Please provide the name of contributors",
+    message: "Please provide the name of contributors.",
     validate: validateInput,
   }, {
     type: "input",
     name: "github",
-    message: "Please provide your GitHub username",
+    message: "Please provide your GitHub username.",
     validate: validateInput,
   }, {
     type: "input",
     name: "email",
-    message: "Please provide your email",
+    message: "Please provide your email.",
     validate: function(data) {
       if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(data)) {
           return true;
