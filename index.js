@@ -43,7 +43,7 @@ function readMeDetails() {
   }, {
     type: "input",
     name: "tests",
-    message: "Tests",
+    message: "Please provide the appropriate tests to run for the application.",
     validate: validateInput,
   }, {
     type: "list",
