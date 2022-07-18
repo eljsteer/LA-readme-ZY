@@ -24,9 +24,7 @@
   Type node index.js in the terminal at the root of the project application.
 
   ## MEDIA
-  ![Example Image of application.1](Readme1-2022-07-18.jpg)
-  ![Example Image of application.2](Readme2-2022-07-18.jpg)
-  ![Example Image of application.3](Readme3-2022-07-18.jpg)
+  ![Example Node prompts in Terminal](Node1 2022-07-18.jpg)
 
   ## TESTS
   *  Test using Jest
